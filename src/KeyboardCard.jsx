@@ -1,11 +1,13 @@
 import React from 'react'
+import ducky from './ducky.jpeg';
+import './KeyboardCard.css';
 
 function KeyboardCard(props) {
     return (
-        <div className="card d-inline-block text-dark">
+        <div className="card d-inline-block text-dark col-lg-3">
             <div className="card-body">
-                {/* <img></img> IMAGE OF KEYBOARD GOES HERE */}
-                <h5 className="card-title bold">{props.keyboard.name}</h5>
+                <img src={props.keyboard.imageUrl} className="kb-img" alt="ducky" />
+                <h3 className="card-title bold">{props.keyboard.name}</h3>
                 <p className="card-text">
                     <span className="bold">
                         Price: $
@@ -21,6 +23,7 @@ function KeyboardCard(props) {
                         Description:
                     </span> {props.keyboard.description}
                 </p>
+                <button className="btn btn-success btn-sm">Add to Cart</button>
             </div>
         </div>
     )
