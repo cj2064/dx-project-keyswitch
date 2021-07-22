@@ -23,7 +23,8 @@ export class DisplayKeyboard extends Component {
 
     render() {
         return (
-            this.state.keyboards.map(kboard => <KeyboardCard keyboard={kboard} key={kboard.id} />)
+            this.state.keyboards.map(kboard => 
+            <KeyboardCard keyboard={kboard} key={kboard.id} />)
         )
         
     }
