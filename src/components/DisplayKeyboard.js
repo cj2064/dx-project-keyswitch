@@ -30,31 +30,4 @@ export class DisplayKeyboard extends Component {
     }
 }
 
-// export class DisplayKeyboard extends Component {
-//     constructor(props) {
-//         super(props);
-//         this.state = {
-//             keyboards: [
-//                 // This hard-coded data now comes from express-api server connected to MongoDB database!
-//                 // new Keyboard(1, "Ducky One 2 Mini", 99.99, "Cherry MX Brown", "The popular 60% keyboard from Ducky"),
-//                 // new Keyboard(2, "Logitech G Pro", 129.99, "GX Blue", "The keyboard used by your favorite pro gamers")
-
-//             ]
-//         }
-//     }
-
-//     componentDidMount() {
-//     fetch("http://localhost:9001/keyboards")
-//     .then(res => res.json())
-//     .then(keyboards => console.log(keyboards));
-//     }
-
-//     render() {
-//         return (
-//             this.state.keyboards.map(kboard => <Keyboard keyboard={kboard} key={kboard.id} />)
-//         )
-        
-//     }
-// }
-
 export default DisplayKeyboard

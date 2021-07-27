@@ -5,9 +5,8 @@ import {
   Route
 } from 'react-router-dom';
 import './App.css';
-import Navbar from './Navbar';
-import KeyboardCard from './KeyboardCard';
-import DisplayKeyboard from './DisplayKeyboard';
+import Navbar from './components/Navbar';
+import DisplayKeyboard from './components/DisplayKeyboard';
 import Home from './Home';
 
 class App extends React.Component {

@@ -1,11 +1,11 @@
 import React from 'react'
-import './KeyboardCard.css';
+import '../styles/KeyboardCard.css';
 
 function KeyboardCard(props) {
     return (
         <div className="text-dark">
             <div className="KeyboardCard-body">
-                <img src={props.keyboard.imageUrl} className="KeyboardCard-img" />
+                <img src={props.keyboard.imageUrl} className="KeyboardCard-img" alt="keyboardcardimg"/>
                 <h4 className="card-title bold">{props.keyboard.name}</h4>
                 <p className="card-text">
                     <span className="bold">

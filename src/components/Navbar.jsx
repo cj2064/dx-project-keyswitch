@@ -1,12 +1,12 @@
-import React, {Component} from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom';
-import logo from './logo.svg';
-import keyswitch_icon from './keyswitch_icon.png';
-import './Navbar.css';
+
+import keyswitch_icon from '../keyswitch_icon.png';
+import '../styles/Navbar.css';
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-sm navbar-custom-color navbar-light justify-content-between">
+        <nav className="navbar navbar-expand-sm bg-dark navbar-dark justify-content-between">
             <Link className="navbar-brand" to="/">
                 <img className="brand" src={keyswitch_icon} alt='logo' /> 
             </Link>
