@@ -21,6 +21,7 @@ class App extends React.Component {
   
   render() {
     return (
+      <div>
       <Router>
         <Navbar />
         <Switch>
@@ -30,6 +31,9 @@ class App extends React.Component {
           <Route path="/keyboardlisting"><KeyboardListing /></Route>
         </Switch>
       </Router>
+      <p style={{textAlign: 'center'}}>© 2021 Christopher Jose</p>
+      </div>
+      
     );
   }
 }

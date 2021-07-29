@@ -1,14 +1,11 @@
-import { props } from 'bluebird'
 import React from 'react'
-import DisplayKeyboard from './DisplayKeyboard'
 
-function KeyboardListing() {
+function KeyboardListing (props) {
     return (
         <div className="KeyboardListing">
-            <DisplayKeyboard />
+            <h1 style={{textAlign: "center"}}>PRODUCT LISTING WILL BE ON THIS PAGE</h1>
         </div>
     )
 }
 
 export default KeyboardListing
-
