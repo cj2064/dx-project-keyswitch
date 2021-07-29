@@ -6,9 +6,9 @@ export class Account extends Component {
     render() {
         return (
             <div className="Account">
-                <div className="container">
-                    <img className="form-logo" src={formLogo} alt="formlogo" />
-                    <form className="Account-form col-md-6">
+                <div className="container col-sm-6">
+                <img className="form-logo" src={formLogo} alt="formlogo" />
+                    <form className="Account-form">
                         <div className="mb-3">
                             <label for="firstName" className="form-label">First Name</label>
                             <input type="firstName" className="form-control" id="firstName" />
@@ -28,7 +28,7 @@ export class Account extends Component {
                         </div>
                         <div className="mb-3 form-check">
                             <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                            <label className="form-check-label" for="exampleCheck1">I agree to the Terms and Conditions</label>
+                            <label className="form-check-label" for="exampleCheck1">I agree to the <a href="#">Terms and Conditions</a></label>
                         </div>
                         <button type="submit" className="btn btn-lg btn-primary">Sign Up</button>
                     </form>

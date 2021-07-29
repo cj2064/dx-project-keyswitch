@@ -9,6 +9,7 @@ function Home() {
                 <LandingPage />
                 <DisplayKeyboard />
             </header>
+            <p style={{textAlign: 'center'}}>© 2021 Christopher Jose</p>
         </div>
     )
 }

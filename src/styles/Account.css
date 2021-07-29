@@ -1,8 +1,9 @@
 .Account {
-    margin-top: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    text-align: center;
 }
 
 .form-logo {
     height: 325px;
-    text-align: center;
 }

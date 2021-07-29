@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import DisplayKeyboard from './components/DisplayKeyboard';
 import Home from './Home';
 import Account from './components/Account';
+import KeyboardListing from './components/KeyboardListing';
 
 class App extends React.Component {
   constructor(props){
@@ -26,6 +27,7 @@ class App extends React.Component {
           <Route exact path="/"><Home /></Route>
           <Route path="/keyboards"><DisplayKeyboard /></Route>
           <Route path="/account"><Account /></Route> 
+          <Route path="/keyboardlisting"><KeyboardListing /></Route>
         </Switch>
       </Router>
     );
