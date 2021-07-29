@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import KeyboardCard from './KeyboardCard';
-import Keyboard from './Keyboard';
+import '../styles/DisplayKeyboard.css';
 
 export class DisplayKeyboard extends Component {
     constructor(props) {
@@ -23,10 +23,23 @@ export class DisplayKeyboard extends Component {
 
     render() {
         return (
-            this.state.keyboards.map(kboard => 
-            <KeyboardCard keyboard={kboard} key={kboard.id} />)
+            // <div className="container-fluid">
+            //     <div className="row mt-5">
+            //         <div className="col-sm-3">
+            //             {this.state.keyboards.map(kboard => <KeyboardCard keyboard={kboard} key={kboard.id} />)}
+            //         </div>
+            //     </div>
+            // </div>
+            <div className="DisplayKeyboard">
+                <div className="DisplayKeyboard-cards">
+                    {this.state.keyboards.map(kboard => (
+                        <KeyboardCard keyboard={kboard} key={kboard.id} />
+                    ))}
+                </div>
+                
+            </div>
+            
         )
-        
     }
 }
 

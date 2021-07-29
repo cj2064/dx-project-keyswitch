@@ -1,10 +1,10 @@
-.carousel-inner > .carousel-item > img {
-   
+.LandingPage-body {
+    font-family: 'Karla', sans-serif;
 }
 
 .carousel-item {
     height: 45rem;
-    background: #777;
+    background: #000;
     color: white;
     position: relative;
 }
@@ -18,10 +18,4 @@
     background-position: center;
     background-size: cover;
     opacity: 0.5;
-}
-
-
-
-.LandingPage-inner-carousel {
-
 }

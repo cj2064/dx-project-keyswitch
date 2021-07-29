@@ -26,15 +26,15 @@ export class LandingPage extends Component {
                     <div className="carousel-item">
                         <img src={kbslide2} className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
-                            <h1>KeySwitch</h1>
-                            <p>The community marketplace for keyboard enthusiasts</p>
+                            <h1>Custom keyboards</h1>
+                            <p>There's a keyboard for everyone</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img src={kbslide3} className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
-                            <h1>KeySwitch</h1>
-                            <p>The community marketplace for keyboard enthusiasts</p>
+                            <h1>Sign up today</h1>
+                            <p>It's free!</p>
                         </div>
                     </div>
                 </div>

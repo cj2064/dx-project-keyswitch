@@ -1,21 +1,29 @@
+.container {
+    font-family: 'Karla', sans-serif;
+}
+
 .KeyboardCard-img {
     height: 300px;
     width: 300px;
 }
 
-.KeyboardCard-body {
-    display: flex;
+.KeyboardCard {
+    border: 2px solid teal;
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 350px;
-    padding: 10px;
-    margin: 1rem;
+    padding: 1px;
+    margin: 7.7rem;
     box-shadow: 7px 10px 12px -5px rgba(0,0,0,0.56);
     text-align: center;
-    background-color: #ffffff;
+    background-color: #fff;
     border-radius: 3px;
 }
 
 .bold {
     font-weight: bold;
+}
+
+.btn {
+    margin-bottom: 2rem;
 }

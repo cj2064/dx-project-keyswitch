@@ -1,4 +1,9 @@
 .brand {
-    height: 2rem;
-    width: 2rem;
+    width: 3rem;
+    padding-left: 7px;
+}
+
+.Navbar-container {
+    font-family: 'Karla', sans-serif;
+
 }

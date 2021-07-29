@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
@@ -8,6 +8,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import DisplayKeyboard from './components/DisplayKeyboard';
 import Home from './Home';
+import Account from './components/Account';
 
 class App extends React.Component {
   constructor(props){
@@ -24,6 +25,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/"><Home /></Route>
           <Route path="/keyboards"><DisplayKeyboard /></Route>
+          <Route path="/account"><Account /></Route> 
         </Switch>
       </Router>
     );
