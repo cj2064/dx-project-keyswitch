@@ -17,6 +17,7 @@ function KeyboardCard (props) {
                 alt="keyboardcardimg"
               />
              </Link>
+             <div className="KeyboardCard-text">
               <h2 className="card-title bold">{props.keyboard.name}</h2>
               <p className="card-text">
                 <span className="bold">
@@ -31,6 +32,7 @@ function KeyboardCard (props) {
               <p className="card-text">
                 {props.keyboard.description}
               </p>
+             </div>
               <button className="btn btn-success btn-sm" href="">Add to Cart</button>
             </div>
           </div>
