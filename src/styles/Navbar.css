@@ -7,6 +7,7 @@
     font-family: 'Karla', sans-serif;
 }
 
-img {
-    padding-right: 5px;
+.brand-icon {
+    height: 2rem;
+    width: 2rem;
 }

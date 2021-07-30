@@ -8,16 +8,20 @@
 }
 
 .KeyboardCard {
-    border: 2px solid teal;
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 350px;
     padding: 1px;
-    margin: 9rem;
+    margin: 4rem;
     box-shadow: 7px 10px 12px -5px rgba(0,0,0,0.56);
     text-align: center;
-    background-color: #efecee;
+    /* background-color: #efecee; */
     border-radius: 3px;
+}
+
+.KeyboardCard-text {
+    margin-top: 1rem;
+    text-align: left;
 }
 
 .bold {
@@ -25,5 +29,6 @@
 }
 
 .btn {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
 }

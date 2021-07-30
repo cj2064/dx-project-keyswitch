@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import keyswitch_icon from '../keyboard_5643.png';
+import { FaRegKeyboard } from 'react-icons/fa';
 import { FaShoppingCart } from 'react-icons/fa';
 import { FaUser } from 'react-icons/fa';
 import { FaKeyboard } from 'react-icons/fa';
@@ -11,7 +12,7 @@ function Navbar() {
         <div className="Navbar-container container">
             <nav className="navbar navbar-expand-sm bg-light navbar-light justify-content-between">
                 <Link className="navbar-brand" to="/">
-                    <img className="brand" src={keyswitch_icon} alt='logo' /> 
+                    <FaRegKeyboard className="brand-icon mx-3" />
                     KeySwitch
                 </Link>
                 <ul className="navbar-nav">
