@@ -12,7 +12,7 @@ export class DisplayKeyboard extends Component {
     }
 
     componentDidMount = () => {
-        fetch("http://localhost:9001/keyboards")
+        fetch("http://dxkeyswitchexpressapi-env.eba-vtptwwmr.us-east-2.elasticbeanstalk.com/keyboards")
         .then(res => res.json())
         .then(kboards => this.setState({keyboards:kboards}))
         .catch(err => console.log('Error has occurred: ' + err))
