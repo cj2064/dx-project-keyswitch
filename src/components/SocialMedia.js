@@ -7,7 +7,7 @@ import '../styles/SocialMedia.css';
 export class SocialMedia extends Component {
     render() {
         return (
-            <div className="container col-md-3">
+            <div className="container col-sm-4 d-flex justify-content-center text-center">
                 <FaFacebookSquare className="media-icon mx-5 my-5"/>
                 <FaTwitter className="media-icon mx-5 my-5"/>
                 <FaInstagram className="media-icon mx-5 my-5"/>

@@ -11,6 +11,9 @@ import Home from './Home';
 import Account from './components/Account';
 import DisplayItem from './components/DisplayItem';
 import SocialMedia from './components/SocialMedia';
+import ShoppingCart from './components/ShoppingCart';
+import SearchKeyboards from './components/SearchKeyboards';
+import { CartProvider } from './components/CartContext';
 
 class App extends React.Component {
   constructor(props){
@@ -26,10 +29,14 @@ class App extends React.Component {
       <Router>
         <Navbar />
         <Switch>
-          <Route exact path="/"><Home /></Route>
-          <Route path="/keyboards"><DisplayKeyboard /></Route>
-          <Route path="/account"><Account /></Route> 
-          <Route path="/keyboardlisting"><DisplayItem /></Route>
+          <CartProvider>
+            <Route exact path="/"><Home /></Route>
+            <Route path="/keyboards"><DisplayKeyboard /></Route>
+            <Route path="/account"><Account /></Route> 
+            <Route path="/keyboardlisting"><DisplayItem /></Route>
+            <Route path="/shopping-cart"><ShoppingCart /></Route>
+            <Route path="/search-keyboards/:id"><SearchKeyboards /></Route>
+          </CartProvider>
         </Switch>
       </Router>
         <SocialMedia />
