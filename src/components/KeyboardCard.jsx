@@ -7,11 +7,9 @@ import '../styles/KeyboardCard.css';
 function KeyboardCard (props) {
   const [cart, setCart] = useContext(CartContext);
   const addToCart = () => {
-    // TO DO: implement later
     const keyboardItem = {name: props.name, price: props.price, imageUrl: props.imageUrl}
     setCart(currState => [...currState, keyboardItem]);
   }
-
   return (
     <div className="KeyboardCard">
        <div className="container">
