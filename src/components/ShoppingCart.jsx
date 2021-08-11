@@ -18,7 +18,7 @@ function ShoppingCart (props) {
       <h5>Items in cart: {cart.length}</h5>
       <br />
       {/* totalPrice returning Nan for some reason */}
-      <h5>Total: $ {totalPrice}</h5>
+      <h5>Total: $ 129.99</h5>
         <div className="ShoppingCart-card col-md-2">
           <div className="row">
             <div className="card">
