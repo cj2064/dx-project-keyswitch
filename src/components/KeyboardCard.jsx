@@ -1,9 +1,15 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import { Link } from 'react-router-dom';
+import { CartContext } from './CartContext';
 
 import '../styles/KeyboardCard.css';
 
 function KeyboardCard (props) {
+  const [cart, setCart] = useContext(CartContext);
+  const addToCart = () => {
+    const keyboardItem = {name: props.name, price: props.price, imageUrl: props.imageUrl}
+    setCart(currState => [...currState, keyboardItem]);
+  }
   return (
     <div className="KeyboardCard">
        <div className="container">
@@ -32,8 +38,7 @@ function KeyboardCard (props) {
               <p className="card-text">
                 {props.keyboard.description}
               </p>
-             </div>
-              <button className="btn btn-success btn-sm" href="">Add to Cart</button>
+              <button className="btn btn-success btn-md" href="" onClick={addToCart}>Add to Cart</button>
             </div>
           </div>
         </div>

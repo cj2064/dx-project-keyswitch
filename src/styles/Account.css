@@ -1,6 +1,9 @@
 .Account {
     margin-top: 2rem;
     display: flex;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: 3px;
 }
 
 .form-logo {

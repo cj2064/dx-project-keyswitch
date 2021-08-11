@@ -5,9 +5,24 @@
 
 .Navbar-container {
     font-family: 'Karla', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
 }
 
 .brand-icon {
     height: 2rem;
     width: 2rem;
+}
+
+.nav-item {
+    background: none;
+    outline: none;
+    font: inherit;
+    color: #009688;
+    transition: 0.25s;
+}
+
+.nav-item:hover {
+    color: white;
+    box-shadow: inset 0 0 0 2rem #c5e0e3;
 }

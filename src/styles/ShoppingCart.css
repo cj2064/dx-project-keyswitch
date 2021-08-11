@@ -1,0 +1,13 @@
+.ShoppingCart {
+    font-family: 'Karla', sans-serif;
+}
+
+.ShoppingCart-card-img {
+    height: 200px;
+    width: 200px;
+    margin-left: 8px;
+}
+
+.ShoppingCart-card {
+    width: 18rem;
+}
