@@ -23,6 +23,7 @@ function KeyboardCard (props) {
                 alt="keyboardcardimg"
               />
              </Link>
+             <div className="KeyboardCard-text">
               <h2 className="card-title bold">{props.keyboard.name}</h2>
               <p className="card-text">
                 <span className="bold">
