@@ -44,6 +44,7 @@ function KeyboardCard (props) {
         </div>
       </div>
     </div>
+    </div>
   );
 }
 
